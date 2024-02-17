@@ -1,17 +1,12 @@
 declare module 'trystero/torrent' {
-  import {BaseRoomConfig, Room} from 'trystero'
-
-  export interface TorrentRoomConfig {
-    trackerUrls?: string[]
-    trackerRedundancy?: number
-  }
+  import {BaseRoomConfig, RelayConfig, Room} from 'trystero'
 
   export function joinRoom(
-    config: BaseRoomConfig & TorrentRoomConfig,
+    config: BaseRoomConfig & RelayConfig,
     roomId: string
   ): Room
 
-  export function getTrackers(): Record<string, WebSocket>
+  export function getRelaySockets(): Record<string, WebSocket>
 
   export * from 'trystero'
 }
