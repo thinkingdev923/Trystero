@@ -1,6 +1,6 @@
 {
   "name": "@trystero-p2p/supabase",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "description": "Supabase strategy for Trystero",
   "keywords": [
     "chat",
@@ -32,10 +32,10 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.99.3",
+    "@supabase/supabase-js": "^2.105.0",
     "@trystero-p2p/core": "workspace:*"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.6.0"
   }
 }
