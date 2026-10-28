@@ -1118,7 +1118,3 @@ these strategies.
 
 For a middleground between using public relays and self-hosting, the built-in
 Supabase and Firebase strategies are a good option.
-
----
-
-Trystero by [Dan Motzenbecker](https://oxism.com)
